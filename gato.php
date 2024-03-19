@@ -30,7 +30,7 @@
         </div>
     </div>
     <?php } else { ?> 
-    <div class="w-full flex justify-center py-2 ">
+    <div class="w-full flex justify-center py-2 shadow">
         <div class="w-[80%] rounded bg-white m-auto overflow-hidden shadow">
             <div class="w-full h-96 bg-cover bg-center bg-[url('<?= $cat["image_url"] ?>')]"></div>
             <h1 class="text-center text-3xl font-bold mt-10  px-12 py-8"> <?= $cat["pt_name"] ?> </h1>
